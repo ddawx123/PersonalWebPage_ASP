@@ -22,3 +22,5 @@
 这里简单介绍一些请求规范。api.ashx主要通过读取pathinfo来执行不同的操作！
 - api.ashx/admin/* ：后台管理专用，此节点下的所有模型调用均受到权限检查模块的保护。部分接口强制要求使用POST方式请求！
 - api.ashx/* : 前台专用，允许匿名请求。部分接口强制要求使用POST方式请求！
+
+### &copy;2012-2017 <a href="http://www.dingstudio.cn" target="_blank">DingStudio</a> All Rights Reserved | 小丁工作室：<a href="https://954759397.qzone.qq.com" target="_blank">alone◎浅忆</a>
