@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ddawx\APIController\build</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="about.html">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="api.ashx">
+      <publishTime>09/23/2017 23:06:59</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/css/compat_login.css">
+      <publishTime>09/25/2017 09:35:59</publishTime>
+    </File>
+    <File Include="assets/css/default.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/css/font-awesome.min.css">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/css/ie8.css">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/css/ie9.css">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/css/images/overlay.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/css/main.css">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/css/normalize.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/css/styles.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/css/sweetalert2.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/css/sweetalert2.min.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/fonts/icomoon.eot">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/fonts/icomoon.svg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/fonts/icomoon.ttf">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/fonts/icomoon.woff">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/app.js">
+      <publishTime>09/27/2017 15:41:23</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/compat_login.js">
+      <publishTime>09/25/2017 18:31:48</publishTime>
+    </File>
+    <File Include="assets/js/custom.js">
+      <publishTime>09/27/2017 18:30:18</publishTime>
+    </File>
+    <File Include="assets/js/ie/backgroundsize.min.htc">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/ie/html5shiv.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/ie/PIE.htc">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/ie/respond.min.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/jquery-2.1.1.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/jquery-ui.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/jquery.scrollex.min.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/jquery.scrolly.min.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/skel.min.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/js/stopExecutionOnTimeout.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/sweetalert2.common.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/sweetalert2.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/sweetalert2.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="assets/js/util.js">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/plugins/msgbox.htm">
+      <publishTime>09/26/2017 20:23:05</publishTime>
+    </File>
+    <File Include="assets/sass/base/_page.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/base/_typography.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_box.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_button.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_contact-method.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_form.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_icon.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_image.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_list.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_section.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_spotlights.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_table.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/components/_tiles.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/ie8.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/ie9.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_banner.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_contact.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_footer.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_header.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_main.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_menu.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/layout/_wrapper.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_functions.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_mixins.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_skel.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_vars.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="assets/sass/main.scss">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="bin/APIController.dll">
+      <publishTime>09/27/2017 18:31:08</publishTime>
+    </File>
+    <File Include="bin/APIController.pdb">
+      <publishTime>09/27/2017 18:31:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/20/2017 20:03:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.pdb">
+      <publishTime>03/20/2017 20:03:12</publishTime>
+    </File>
+    <File Include="elements.html">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/banner.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic01.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic02.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic03.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic04.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic05.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic06.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic07.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic08.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic09.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic10.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="images/pic11.jpg">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>09/27/2017 18:27:41</publishTime>
+    </File>
+    <File Include="login.html">
+      <publishTime>09/26/2017 12:57:45</publishTime>
+    </File>
+    <File Include="manager.aspx">
+      <publishTime>09/27/2017 15:36:44</publishTime>
+    </File>
+    <File Include="static/css/bootstrap.min.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/compat_login.css">
+      <publishTime>09/25/2017 09:35:59</publishTime>
+    </File>
+    <File Include="static/css/default.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/font-awesome.min.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/ie8.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/ie9.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/images/overlay.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/main.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/normalize.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/styles.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/sweetalert2.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/css/sweetalert2.min.css">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/fontawesome-webfont.eot">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/fontawesome-webfont.svg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/fontawesome-webfont.woff">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/FontAwesome.otf">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/icomoon.eot">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/icomoon.svg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/icomoon.ttf">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/fonts/icomoon.woff">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/1.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/2.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/3.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/4.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/5.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/6.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/7.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/8.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/9.jpg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/biglogo.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/favicon.ico">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/lock_icon_copy.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/logo.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/logo.svg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/puff.svg">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/tick.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/img/user_icon_copy.png">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/app.js">
+      <publishTime>09/25/2017 18:56:14</publishTime>
+    </File>
+    <File Include="static/js/bootstrap.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/compat_login.js">
+      <publishTime>09/25/2017 18:31:48</publishTime>
+    </File>
+    <File Include="static/js/ie/html5shiv.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/ie/PIE.htc">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/ie/respond.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/jquery-2.1.1.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/jquery-ui.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/jquery.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/jquery.scrollex.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/jquery.scrolly.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/main.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/skel.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/stopExecutionOnTimeout.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/sweetalert2.common.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/sweetalert2.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/sweetalert2.min.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/js/util.js">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/base/_page.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/base/_typography.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_box.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_button.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_features.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_form.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_icon.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_image.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_list.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_section.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_spotlight.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_statistics.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/components/_table.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/ie8.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/ie9.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/layout/_footer.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/layout/_header.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/layout/_main.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/layout/_nav.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/layout/_wrapper.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/libs/_functions.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/libs/_mixins.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/libs/_skel.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/libs/_vars.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="static/sass/main.scss">
+      <publishTime>09/25/2017 09:25:20</publishTime>
+    </File>
+    <File Include="summary.html">
+      <publishTime>09/26/2017 12:51:25</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/27/2017 12:59:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
