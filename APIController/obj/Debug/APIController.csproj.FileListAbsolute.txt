@@ -15,3 +15,8 @@ C:\Users\DavidDing\Desktop\APIController\APIController\bin\Newtonsoft.Json.pdb
 C:\Users\DavidDing\Desktop\APIController\APIController\obj\Debug\APIController.csprojResolveAssemblyReference.cache
 C:\Users\DavidDing\Desktop\APIController\APIController\obj\Debug\APIController.dll
 C:\Users\DavidDing\Desktop\APIController\APIController\obj\Debug\APIController.pdb
+D:\Repositories\PersonalWebPage_ASP\APIController\bin\APIController.dll.config
+D:\Repositories\PersonalWebPage_ASP\APIController\bin\APIController.dll
+D:\Repositories\PersonalWebPage_ASP\APIController\bin\APIController.pdb
+D:\Repositories\PersonalWebPage_ASP\APIController\obj\Debug\APIController.dll
+D:\Repositories\PersonalWebPage_ASP\APIController\obj\Debug\APIController.pdb

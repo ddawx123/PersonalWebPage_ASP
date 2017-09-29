@@ -7,6 +7,8 @@
 var init = function(){
     getFrameWork();
     BGMInit();
+    checkSSO();
+    document.getElementById("copyright_info").innerHTML = '&copy; 2012 - ' + new Date().getFullYear() + ' DingStudio All Rights Reserved';
 };
 
 init();
@@ -96,5 +98,40 @@ function sendMessage() {
             alert("AJAX请求发生错误，远程服务器积极拒绝本次操作。请刷新页面后再次尝试！错误代码：" + XMLHttpRequest.status + "，错误状态：" + XMLHttpRequest.readyState + "。错误描述：" + textStatus);
         }
     });
+    return false;
+}
+
+function checkSSO() {//Loading DingStudio SSO Api
+    console.log("Please wait, we are connecting to remote application interface ...");
+    var xhr;
+    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xhr=new XMLHttpRequest();
+    }
+    else {// code for IE6, IE5
+        xhr=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xhr.onreadystatechange=function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            var authdata = xhr.responseXML;
+            var authcode = authdata.getElementsByTagName("authcode")[0].firstChild.nodeValue;
+            //alert(authcode);
+            if (authcode == '0') {
+                document.getElementById("MenuLoginItem").innerHTML = '<a href="https://passport.dingstudio.cn/sso/login?mod=caslogin&returnUrl=' + encodeURIComponent(window.location.href) + '&ref=portalindex" class="button fit">登录</a>';
+            }
+            else {
+                var username = authdata.getElementsByTagName("username")[0].firstChild.nodeValue;//Get User Information
+                document.getElementById("MenuLoginItem").innerHTML = '当前用户：<a href="https://passport.dingstudio.cn/sso/uc?ref=portalindex" target="_self" title="访问网站通行证用户中心" class="button fit">' + username + '</a>|<a href="https://passport.dingstudio.cn/sso/login.php?action=dologout&url=' + encodeURIComponent(window.location.href) + '" class="button fit">退出</a>';
+            }
+            console.log("Well, the dingstudio ssoapi has been successfully connected.");
+        }
+    }
+    xhr.withCredentials = true;
+    xhr.open("POST","https://passport.dingstudio.cn/api?format=xml",true);
+    xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xhr.send('cors_domain=' + window.location.protocol + '//' + window.location.host);
+}
+
+function breakAccess(str) {
+    alert(str);
     return false;
 }

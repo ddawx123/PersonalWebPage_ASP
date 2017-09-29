@@ -30,13 +30,16 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">首页</a></li>
-							<li><a href="summary.html">文章快览</a></li>
-							<li><a href="about.html">关于我</a></li>
-							<li><a href="elements.html">站点大全</a></li>
+							<!--<li><a href="summary.html" onclick="breakAccess('该模块施工中，暂未开放外部访问权限。给您带来不便，敬请谅解！')">文章快览</a></li>
+							<li><a href="about.html" onclick="breakAccess('该模块施工中，暂未开放外部访问权限。给您带来不便，敬请谅解！')">关于我</a></li>
+							<li><a href="elements.html" onclick="breakAccess('该模块施工中，暂未开放外部访问权限。给您带来不便，敬请谅解！')">站点大全</a></li>-->
+                            <li><a href="javascript:void(0);" onclick="breakAccess('该模块施工中，暂未开放外部访问权限。给您带来不便，敬请谅解！')">文章快览</a></li>
+                            <li><a href="javascript:void(0);" onclick="breakAccess('该模块施工中，暂未开放外部访问权限。给您带来不便，敬请谅解！')">关于我</a></li>
+                            <li><a href="javascript:void(0);" onclick="breakAccess('该模块施工中，暂未开放外部访问权限。给您带来不便，敬请谅解！')">站点大全</a></li>
 						</ul>
 						<ul class="actions vertical">
-							<li><a href="#" class="button special fit">与我联系</a></li>
-							<li><a href="#" class="button fit">登录</a></li>
+							<li><a href="mailto:ding@dingstudio.cn" class="button special fit">与我联系</a></li>
+							<li id="MenuLoginItem"><a href="javascript:void(0);" onclick="breakAccess('如果该提示保持5秒依旧没有消失，请检查您是否禁止了JS脚本运行或网络是否通畅！')">正在获取登录状态</a></li>
 						</ul>
 					</nav>
 
@@ -193,7 +196,7 @@
 								
 							</ul>
 							<ul class="copyright">
-								<li>&copy; 2012-2017 DingStudio All Rights Reserved</li><li>Design: <a href="http://954759397.qzone.qq.com">alone◎浅忆</a></li>
+								<li id="copyright_info">&copy; 2012-正在获取 DingStudio All Rights Reserved</li><li>Design: <a href="http://954759397.qzone.qq.com">alone◎浅忆</a></li>
 							</ul>
 						</div>
 					</footer>
